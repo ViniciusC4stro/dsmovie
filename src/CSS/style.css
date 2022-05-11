@@ -66,7 +66,7 @@ nav h1 {
 
 /* =========== MAIN =========== */
 #dsmovie-cardlist {
-    padding: 40px 0;
+    padding: 40px 10px;
 }
 
 .dsmovie-card {
@@ -88,7 +88,7 @@ nav h1 {
 
     border-radius: 0 0 8px 8px;
 
-    height: 220px;
+    height: 190px;
 
     padding: 10px 20px 20px 20px;
 }
@@ -99,7 +99,7 @@ nav h1 {
 
     text-align: center;
 
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .card-description-bottom {
