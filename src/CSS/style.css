@@ -118,3 +118,9 @@ nav h1 {
 
     border-radius: 4px;
 }
+
+/* ========== FORM SECTION ========= */
+#dsmovie-form .dsmovie-form-container {
+    padding: 40px 0;
+    max-width: 480px;
+}
