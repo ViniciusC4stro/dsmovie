@@ -13,6 +13,7 @@
     --text-gray: hsl(0, 0%, 29%);
     --text-light-gray: hsl(0, 0%, 67%);
     --star-yellow:  hsl(39, 100%, 61%);
+    --color-border-button: hsl(0, 0%, 76%)
 }
 
 html, body, main {
@@ -66,7 +67,7 @@ nav h1 {
 
 /* =========== MAIN =========== */
 #dsmovie-cardlist {
-    padding: 40px 10px;
+    padding: 0px 10px;
 }
 
 .dsmovie-card {
@@ -191,4 +192,53 @@ nav h1 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+/* ======== PAGINATION =========*/
+.dsmovie-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dsmovie-pagination-box {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+
+    width: 180px;
+}
+
+.dsmovie-pagination-box p {
+    margin-bottom: 0;
+
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-primary);
+}
+
+.dsmovie-pagination-box button:disabled {
+    border: 1px solid var(--color-border-button);
+}
+
+.dsmovie-pagination-box button {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    border: 1px solid var(--color-primary);
+
+    background-color: var(--white);
+}
+
+.dsmovie-flip-horizontal {
+    transform: rotate(180deg);
+}
+
+.dsmovie-flip-horizontal path {
+    fill: var(--color-primary);
 }
